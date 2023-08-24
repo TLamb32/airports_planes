@@ -1,0 +1,3 @@
+class Plane < ApplicationRecord
+  
+end
