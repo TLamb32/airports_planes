@@ -1,0 +1,6 @@
+<h1>Airports</h1>
+<% @airports.each do |airport| %>
+  <h3><%= airport.name %></h3>
+  <p>Airport Helipad: <%= airport.helipad%></p>
+  <p>Airport Runways: <%= airport.runways %></p>
+<% end %>
